@@ -1,17 +1,19 @@
 import Header from '../components/Header'
-import './index.css'
 import carbonara from './assets/carbonara.jpg'
 
 function App() {
 
   return (
     <div className='max-w-7xl mx-auto'>
+
       <Header />
 
-      <div className='px-10 mt-11'>
-        <div className="text-3xl font-bold my-8">Spaghetti Carbonara</div>
-        <img src={carbonara} width={500} />
-        <p className='max-w-lg '>Spaghetti Carbonara is a classic Italian pasta dish that's quick, easy, and delicious. Originating in Rome, this dish is known for its creamy sauce and savory pancetta.</p>
+      <div className='px-10 mt-11 max-w-4xl mx-auto'>
+
+          <div className="text-3xl font-bold my-8">Spaghetti Carbonara</div>
+          <img src={carbonara} width={500} />
+          <p className='max-w-lg '>Spaghetti Carbonara is a classic Italian pasta dish that's quick, easy, and delicious. Originating in Rome, this dish is known for its creamy sauce and savory pancetta.</p>
+
 
         <h3>Cooking Time and Servings:</h3>
         <ul>
