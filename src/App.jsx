@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import carbonara from './assets/carbonara.jpg'
 
 function App() {
@@ -57,7 +58,7 @@ function App() {
           <li>Protein: 36g</li>
         </ul>
       </div>
-
+    <Footer />
     </div>
   )
 }
