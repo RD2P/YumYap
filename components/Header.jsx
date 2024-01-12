@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../src/assets/yumyap.png'
+import logo from '/assets/yumyap.png'
 
 const Header = () => {
   return (
