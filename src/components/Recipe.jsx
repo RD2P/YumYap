@@ -3,7 +3,7 @@ import carbonara from '/assets/carbonara.jpg'
 
 const Recipe = () => {
   return (
-    <div className='px-10 mt-11 max-w-4xl mx-auto'>
+    <div className='px-10 max-w-4xl mx-auto'>
 
       <div className="text-3xl font-bold my-8">Spaghetti Carbonara</div>
       <img src={carbonara} width={500} />
