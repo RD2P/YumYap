@@ -1,6 +1,6 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Recipe from '../components/Recipe'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Recipe from './components/Recipe'
 
 
 function App() {
