@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  --primary-clr: [#FF6F61];
+
+  /* --primary-clr: [#FF6F61];
   --secondary-clr: [#F4D35E];
   --accent-clr: [#5CA4A9];
-  --neutral-clr: [#FFFFFF];
-}
+  --neutral-clr: [#FFFFFF]; */
 
-.test {
-  background-color: aqua;
+
+.prim-clr {
+  background-color: #FF6F61;
 }
 
 h3 {

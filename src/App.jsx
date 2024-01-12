@@ -6,12 +6,13 @@ import Recipe from './components/Recipe'
 function App() {
 
   return (
-    <div className='max-w-7xl mx-auto'>
-
+    <>
       <Header />
-      <Recipe />
+      <div className='max-w-7xl mx-auto'>
+        <Recipe />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
