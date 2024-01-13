@@ -9,7 +9,8 @@ function App() {
 
   const [recipe, setRecipe] = useState('')
   useEffect(() => {
-    import("./md/poutine.md")
+    // import("./md/poutine.md")
+    import("./md/carbonara.md")
       .then(res => {
         fetch(res.default)
           .then(res => res.text())
