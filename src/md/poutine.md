@@ -1,4 +1,7 @@
+
 # Classic Poutine
+
+![Poutine](../../public/assets/poutine.jpg)
 
 Poutine is a popular Canadian dish that originated in Quebec. It traditionally consists of crispy French fries topped with cheese curds and smothered in a rich gravy. It's a comforting and indulgent dish that's perfect for a cozy night in or as a unique addition to any gathering.
 
@@ -19,6 +22,7 @@ Poutine is a popular Canadian dish that originated in Quebec. It traditionally c
   - Salt and pepper to taste
 
 ### Instructions
+
 1. Preheat your oven to 450°F (230°C) and line a baking sheet with parchment paper.
 2. Spread the cut potatoes in a single layer on the baking sheet. Drizzle with olive oil, season with salt and pepper, and toss to coat evenly.
 3. Bake the fries in the preheated oven for 20-25 minutes or until golden brown and crispy, flipping them halfway through.
@@ -31,6 +35,7 @@ Poutine is a popular Canadian dish that originated in Quebec. It traditionally c
 Enjoy your homemade poutine!
 
 ### Nutritional Information (per serving):
+
 - Calories: 550-650 kcal
 - Fat: 30-40g
 - Carbohydrates: 50-60g
