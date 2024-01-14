@@ -3,9 +3,9 @@ import logo from '/assets/yumyap.png'
 
 const Header = () => {
   return (
-    <nav className='flex items-center justify-center mb-12 py-5 shadow-lg prim-clr'>
+    <nav className='flex items-center py-4 justify-between mb-12 shadow-lg bg-primary px-12'>
 
-      <div className='p-8 '>
+      <div className=''>
         <img src={logo} width={70} className='' />
       </div>
 

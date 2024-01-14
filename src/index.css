@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 
-  /* --primary-clr: [#FF6F61];
+/* --primary-clr: [#FF6F61];
   --secondary-clr: [#F4D35E];
   --accent-clr: [#5CA4A9];
   --neutral-clr: [#FFFFFF]; */
 
 
-.prim-clr {
+.bg-primary {
   background-color: #FF6F61;
 }
 
