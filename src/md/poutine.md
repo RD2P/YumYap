@@ -1,7 +1,7 @@
 
 # Classic Poutine
 
-![Poutine](../../public/assets/poutine.jpg)
+![Poutine](/assets/poutine.jpg)
 
 Poutine is a popular Canadian dish that originated in Quebec. It traditionally consists of crispy French fries topped with cheese curds and smothered in a rich gravy. It's a comforting and indulgent dish that's perfect for a cozy night in or as a unique addition to any gathering.
 
