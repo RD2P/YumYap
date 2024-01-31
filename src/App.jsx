@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import SideBar from './components/SideBar'
 import Footer from './components/Footer'
 import Recipe from './components/Recipe'
 import Poutine from './components/Poutine'
@@ -7,11 +8,12 @@ import Markdown from 'react-markdown'
 
 function App() {
 
-  
+
   const [recipe, setRecipe] = useState('')
+  const [showSidebar, setShowSidebar] = useState(false)
   useEffect(() => {
     import("./md/poutine.md")
-    // import("./md/carbonara.md")
+      // import("./md/carbonara.md")
       .then(res => {
         fetch(res.default)
           .then(res => res.text())
@@ -23,13 +25,11 @@ function App() {
   return (
     <>
       <Header />
-
-
-      <div className='max-w-7xl mx-auto'>
-      <Markdown>{recipe}</Markdown>
-
-        {/* <Recipe /> */}
-        {/* <Poutine /> */}
+      <div className='flex max-w-7xl mx-auto'>
+        {showSidebar ? <SideBar setShowSidebar={setShowSidebar} /> : <button onClick={() => setShowSidebar(true)}>Show Sidebar</button>}
+        <main className='w-3/4'>
+          <Markdown>{recipe}</Markdown>
+        </main>
       </div>
       <Footer />
     </>
