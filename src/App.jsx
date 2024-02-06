@@ -10,7 +10,7 @@ function App() {
 
 
   const [recipe, setRecipe] = useState('')
-  const [showSidebar, setShowSidebar] = useState(false)
+  // const [showSidebar, setShowSidebar] = useState(false)
   useEffect(() => {
     import("./md/poutine.md")
       // import("./md/carbonara.md")
@@ -25,9 +25,9 @@ function App() {
   return (
     <>
       <Header />
+      {/* {showSidebar ? <SideBar setShowSidebar={setShowSidebar} /> : <button onClick={() => setShowSidebar(true)}>Show Sidebar</button>} */}
       <div className='flex max-w-7xl mx-auto'>
-        {showSidebar ? <SideBar setShowSidebar={setShowSidebar} /> : <button onClick={() => setShowSidebar(true)}>Show Sidebar</button>}
-        <main className='w-3/4'>
+        <main>
           <Markdown>{recipe}</Markdown>
         </main>
       </div>
