@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '/assets/yumyap.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,9 +10,9 @@ const Header = () => {
         <img src={logo} width={70} className='' />
       </div>
 
-      
-
-      <div className=''>YumYap</div>
+      <Link to='/'>Home</Link><br></br>
+      <Link to='/poutine'>Poutine</Link><br></br>
+      <Link to='/carbonara'>Carbonara</Link>
     </nav>
   )
 }
